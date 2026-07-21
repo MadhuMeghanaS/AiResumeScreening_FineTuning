@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Datasets (too large for git, keep repo lightweight)
+data/
+*.csv
+*.pdf
+
+# Trained models / large artifacts
+*.pt
+*.pth
+*.bin
+resume_classifier_model/
+vocab.json
+
+# Generated outputs
+*.png
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
